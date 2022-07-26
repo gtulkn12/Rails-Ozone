@@ -71,7 +71,7 @@ group :development do
 end
 
 group :production do
-  gen 'pg', '~> 1.1', '>= 1.1.4'
+  gem 'pg', '~> 1.1', '>= 1.1.4'
 end
 
 group :test do
